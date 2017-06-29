@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    html = "<html><body style='background:green'></body></html>"
+    html = "<html><body style='background:yellow'></body></html>"
     return html
 
 if __name__ == "__main__":
